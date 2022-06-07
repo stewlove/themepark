@@ -1,0 +1,78 @@
+/*
+    Web page styles for the theme park tickets calculator page.
+    Author: Stewart Lovell
+    File: styles.css
+    Date: 1/14/2022
+*/
+
+body {
+    background-color: #ffd131;
+}
+
+img, h1, form, p
+{
+    background-color: #ffd289;
+    padding: 6px;
+}
+
+p
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div
+{
+    width: 650px;
+}
+
+div, img
+{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+button
+{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    width: 100px;
+}
+
+form, h1, p
+{
+    width: 600px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+div, img, h1, form, p
+{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+input[type=text], select
+{
+    margin: 2px auto 8px;
+    display: block;
+}
+
+label
+{
+    margin-left: -230px;
+}
+
+select
+{
+    margin-left: 145px;
+}
+
+input[type=text], select
+{
+    border: 2px solid black;
+    width: 300px;
+}
